@@ -171,7 +171,7 @@ body {
   color: #ffb742;
   padding: 10px 15px;
   width: max-content;
-  margin: 20px 20px 0 65px;
+  margin: 20px 40px 20px;
   border: none;
   border-radius: 10px;
 }
@@ -201,6 +201,10 @@ body {
   font-weight: 700;
   font-size: 2rem;
   margin-bottom: 10px;
+}
+
+.wrapper-about div p {
+  text-align: justify;
 }
 
 .skills {
@@ -459,7 +463,8 @@ footer .cols .email-me-input input {
   }
 
   .wrapper-about div {
-    max-width: 95%;
+    text-align: center;
+    margin-bottom: 10px;
   }
 
   .skills {
@@ -469,6 +474,10 @@ footer .cols .email-me-input input {
 
   .skills .skills-left {
     max-width: 90%;
+  }
+
+  .skills .skills-left p {
+    text-align: justify;
   }
 
   footer .cols {
@@ -490,6 +499,14 @@ footer .cols .email-me-input input {
   footer .cols .links-col {
     align-items: center;
     justify-content: center;
+  }
+
+  .email-me .email-me-text {
+    text-align: center;
+  }
+
+  .email-me .email-me-text p {
+    font-size: 12px;
   }
 }
 
